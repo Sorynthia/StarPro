@@ -39,8 +39,8 @@
 
 ## 文件说明
 
-- `login.py` - 主要的签到脚本
-- `.github/workflows/auto-qiandao.yml` - GitHub Actions工作流配置
+- `main.py` - 主要的签到脚本
+- `.github/workflows/main.yml` - GitHub Actions工作流配置
 
 ## 本地运行
 
