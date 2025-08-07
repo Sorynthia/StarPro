@@ -34,11 +34,9 @@ def main():
         if response.status_code == 200 and login_result.get('code') == 1:
             # 提取用户信息
             token = login_result['data']['token']
-            screen_name = login_result['data']['screenName']
             uid = login_result['data']['uid']
             
             # 显示用户信息
-            print(f"NAME: {screen_name}")
             print(f"UID:  {uid}")
             
             # 执行签到
